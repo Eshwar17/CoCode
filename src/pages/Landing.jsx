@@ -180,8 +180,8 @@ export default function Landing() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { tier: 'Free', price: '$0', desc: 'Cocode app itself', items: ['Unlimited analyses', 'All features', 'Local history', 'Open source'] },
-              { tier: 'OpenRouter Free', price: '$0', desc: 'Free model usage', items: ['Llama 3.1 8B', 'Mistral 7B', 'Qwen 2 7B', 'Gemma 2 9B'], highlight: true },
+              { tier: 'Free', price: '₹0', desc: 'Cocode app itself', items: ['Unlimited analyses', 'All features', 'Local history', 'Open source'] },
+              { tier: 'OpenRouter Free', price: '₹0', desc: 'Free model usage', items: ['Llama 3.1 8B', 'Mistral 7B', 'Qwen 2 7B', 'Gemma 2 9B'], highlight: true },
               { tier: 'OpenRouter Paid', price: 'Pay per use', desc: 'Premium models', items: ['GPT-4o Mini', 'Claude 3 Haiku', 'DeepSeek Coder', 'More models'] },
             ].map((plan, i) => (
               <div key={i} className={`rounded-2xl p-6 text-left ${plan.highlight ? 'pulse-border' : ''}`}
